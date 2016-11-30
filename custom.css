@@ -76,3 +76,9 @@ section#buildapc{
 		margin-left: 15px;
 	}
 }
+@media (max-width: 600px){
+	nav#infinityNav, div.push-menu-container{
+		display:none;
+	}
+
+}
