@@ -1,0 +1,74 @@
+div.push-menu-button{
+ 	position: fixed;
+ 	top: 2px;
+ 	left: 2px;
+ }
+.desktop-img{
+	margin-top: 300px;
+}
+.why-choose{
+	margin-bottom: -70px;
+}
+section#features{
+	margin-top: -50px;
+}
+div#features-div{
+	margin-bottom: 40px;
+}
+img#custom-desktop-img{
+	margin-top: 200px;
+}
+
+section.partlist{
+	margin-top: -200px;
+}
+section#building{
+	background-image: ('');
+}
+img.img-partlist-first{
+	margin-top: 110px;
+}
+img.img-partlist{
+	margin-top: -50px;
+}
+div.infodiv-first{
+	margin-top: 0;
+}
+div.infodiv{
+	margin-top: -200px;
+}
+section#contactsection{
+	z-index: 4;
+	background-color: rgba(255,255,255,.7);
+}
+#contact .section-dark.section-title {
+	color: black;
+}
+
+section#buildapc section{
+	display: none;
+	padding-top: 100px;
+}
+section#buildapc section#title{
+	display: block;
+}
+span a.partmenu span{
+	display: inline;
+}
+span#partpicker{
+	padding-top: -30px;
+}
+section#buildapc{
+	padding-bottom: 100px;
+}
+
+/*media changes*/
+
+@media (max-width: 991px){
+	div.overview-device-wrapper img#custom-desktop-img{
+		margin-top:300px;
+	}
+	section#buildapc span#partpicker{
+		font-size: 32px;
+	}
+}
